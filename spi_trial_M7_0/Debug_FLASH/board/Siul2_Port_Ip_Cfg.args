@@ -10,13 +10,13 @@
 -DS32K322
 -DCPU_S32K322
 -DCPU_CORTEX_M7
--IC:/Users/eya12/workspaceS32DS.3.5/spi_trial/spi_trial_M7_0/generate/include
--IC:/Users/eya12/workspaceS32DS.3.5/spi_trial/spi_trial_M7_0/RTD/include
--I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/header/"
--I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include/"
--I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/include/"
--I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/startup/include/"
--I"C:/Users/eya12/workspaceS32DS.3.5/spi_trial/spi_trial_M7_0/board"
+-I/home/ubuntu/nxp_spi_trial/spi_trial_M7_0/generate/include
+-I/home/ubuntu/nxp_spi_trial/spi_trial_M7_0/RTD/include
+-I"/home/ubuntu/NXP/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/header/"
+-I"/home/ubuntu/NXP/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include/"
+-I"/home/ubuntu/NXP/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/include/"
+-I"/home/ubuntu/NXP/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/startup/include/"
+-I"/home/ubuntu/nxp_spi_trial/spi_trial_M7_0/board"
 -Os
 -funsigned-char
 -fomit-frame-pointer
@@ -41,4 +41,4 @@
 -mfpu=fpv5-sp-d16
 -specs=nano.specs
 -specs=nosys.specs
---sysroot="C:/NXP/S32DS.3.5/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"
+--sysroot="/home/ubuntu/NXP/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"

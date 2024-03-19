@@ -2,7 +2,7 @@
 --entry=Reset_Handler
 -ggdb3
 -T
-"C:/Users/eya12/workspaceS32DS.3.5/spi_trial/spi_trial_M7_1/Project_Settings/Linker_Files/linker_flash_c1_s32k322.ld"
+"/home/ubuntu/nxp_spi_trial/spi_trial_M7_1/Project_Settings/Linker_Files/linker_flash_c1_s32k322.ld"
 -Wl,-Map,"spi_trial_M7_1.map"
 -mcpu=cortex-m7
 -mthumb
@@ -11,7 +11,7 @@
 -mfpu=fpv5-sp-d16
 -specs=nano.specs
 -specs=nosys.specs
---sysroot="C:/NXP/S32DS.3.5/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"
+--sysroot="/home/ubuntu/NXP/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"
 "./Project_Settings/Startup_Code/Vector_Table.o"
 "./Project_Settings/Startup_Code/exceptions.o"
 "./Project_Settings/Startup_Code/nvic.o"
